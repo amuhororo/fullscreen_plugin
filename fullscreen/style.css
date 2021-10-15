@@ -1,0 +1,18 @@
+/* フルスクリーンボタン */
+.fullscreen {
+	opacity:0.25;
+	transition: .5s ease-out;
+}
+/* フルスクリーン状態の時は透明に */
+.fullscreen[src*="_exit"] {
+	opacity:0;
+	transition: 1s ease-out;
+}
+/* モバイル機の時は透明にしない */
+.fullscreen.mobile[src*="_exit"] {
+	opacity:0.25;
+}
+/* hover時 */
+.fullscreen:hover {
+	opacity:0.65;
+}
