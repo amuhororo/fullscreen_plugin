@@ -1,2 +1,0 @@
-# fullscreen_plugin
-フルスクリーンボタンプラグイン
